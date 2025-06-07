@@ -1,4 +1,4 @@
-package com.microservice.paciente.model;
+package com.microservice.cliente.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
@@ -10,16 +10,16 @@ import lombok.Data;
 import java.util.Date;
 
 @Entity//Le indico con el decorador que este sera el id de mi tabla
-@Table(name = "Cliente")//Con esto le digo que sera autoincrementable
+@Table(name = "cliente")//Con esto le digo que sera autoincrementable
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Paciente {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_Cliente;
+    private int id_cliente;
 
     @Column(name="rut", unique=true,length=13,nullable = false)
     @NotBlank(message = "Rut es obligatorio")

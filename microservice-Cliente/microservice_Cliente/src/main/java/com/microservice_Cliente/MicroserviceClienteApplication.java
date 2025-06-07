@@ -1,9 +1,10 @@
-package com.microservice_Cliente;
+package com.microservice.cliente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@enableDiscoveryclient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class MicroserviceClienteApplication {
 
