@@ -6,7 +6,7 @@
     <module>microservice-config</module>
     <module>microservice-eureka</module>
     <module>microservice-gateway</module>
-    <module>microservice-paciente</module>
+    <module>microservice-Cliente</module>
   </modules>
 
   <parent>

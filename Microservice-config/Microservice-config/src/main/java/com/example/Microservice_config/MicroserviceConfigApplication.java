@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 
-@EnableConfigServer
+@EnableConfigServer	
 @SpringBootApplication
 public class MicroserviceConfigApplication {
 
